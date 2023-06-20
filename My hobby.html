@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nail Art - My Hobby</title>
+  </head>
+  <style>
+    body {
+      background-color: #f4cb99;
+    }
+    .mode-button {
+      background-color: rgb(157, 114, 49);
+      border-radius: 30px;
+      padding: 8px;
+    }
+    .mode-button:hover {
+      background: rgb(65, 50, 2);
+      color: rgb(157, 114, 49);
+      transition: all 300ms linear;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+    .learn-button {
+      background: rgb(255, 228, 196);
+      background: radial-gradient(
+        circle,
+        rgba(255, 228, 196, 1) 0%,
+        rgba(244, 203, 153, 1) 100%
+      );
+      font-size: 18px;
+      border: 1px solid rgb(229, 181, 103);
+      border-radius: 30px;
+      padding: 10px;
+    }
+    .learn-button:hover {
+      background-color: rgb(229, 181, 103);
+      color: bisque;
+      cursor: pointer;
+      transition: all 300ms linear;
+    }
+    h1 {
+      text-align: center;
+      font-family: fantasy;
+    }
+    h2 {
+      text-align: center;
+      font-family: fantasy;
+    }
+    p {
+      font-size: 19px;
+      font-family: fantasy;
+    }
+    .frame {
+      background-color: #ffe4c4;
+      margin: 10px auto;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 30px;
+    }
+    img {
+      max-width: 75%;
+      border-radius: 15px;
+    }
+    .first-picture {
+      margin: 0px 75px;
+    }
+    .first-picture:hover {
+      opacity: 0.5;
+      transform: scale(1.03);
+      transition: all 400ms;
+      border-radius: 70px;
+    }
+    footer {
+      text-align: center;
+    }
+    .more {
+      color: rgb(238, 177, 103);
+    }
+    .name {
+      color: rgb(169, 107, 31);
+    }
+    .grid {
+      display: grid;
+      margin: 30px 90px;
+      grid-template-columns: 200px 200px;
+      gap: 15px;
+    }
+    .grid img {
+      max-width: 200px;
+    }
+    .grid img:hover {
+      transform: scale(1.04);
+      transition: all 400ms ease-out;
+    }
+    .dark {
+      background: rgb(91, 107, 36);
+      background: radial-gradient(
+        circle,
+        rgba(91, 107, 36, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+      );
+      color: rgb(125, 84, 32);
+    }
+    .dark .mode-button {
+      background: rgb(33, 47, 13);
+    }
+    .dark .learn-button {
+      background: rgb(113, 79, 31);
+      background: radial-gradient(
+        circle,
+        rgba(113, 79, 31, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+      );
+      color: rgb(249, 212, 168);
+    }
+    .dark .frame {
+      background: rgb(66, 78, 25);
+      background: radial-gradient(
+        circle,
+        rgba(66, 78, 25, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+      );
+    }
+    img:hover {
+      opacity: 0.8;
+    }
+  </style>
+  <body>
+    <button class="mode-button">Dark Mode</button>
+    <div class="frame">
+      <h1>Nail Art</h1>
+      <h2>One of my favorite hobbies</h2>
+      <a href="https://unsplash.com/@sour_moha" target="_blank">
+        <img
+          src="https://images.unsplash.com/photo-1600427150683-348f588e815c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG5haWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+          alt=""
+          class="first-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://images.unsplash.com/photo-1636757392031-d5079eec8c41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5haWwlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1682343334968-28b7a19e6828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5haWwlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1588359953494-0c215e3cedc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmFpbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+
+        <img
+          src="https://plus.unsplash.com/premium_photo-1670444332411-3cdd07807f68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fG5haWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+          alt=""
+        />
+      </div>
+      <p>
+        Nail art is a creative way to paint, decorate, enhance, and embellish
+        nails. It is a type of artwork that can be done on fingernails and
+        toenails, usually after manicures or pedicures. nail art can be a way
+        for others to express themselves and come up with new ideas and fantasy
+        built mind.
+        <br />
+        <a
+          class="more"
+          href="https://en.wikipedia.org/wiki/Nail_art"
+          target="_blank"
+        >
+          More on wikipedia</a
+        >
+      </p>
+      <button class="learn-button">Learn nail art</button>
+    </div>
+    <footer>
+      Created by
+      <a
+        class="name"
+        href="https://www.pinterest.com/search/pins/?q=nail%20art&rs=typed"
+        target="blank"
+      >
+        Rita Rudzite🌼
+      </a>
+    </footer>
+    <script>
+      function changeMode() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let modeButton = document.querySelector(".mode-button");
+      modeButton.addEventListener("click", changeMode);
+
+      alert("🌼Welcome to my SheCodes project!🌼 - Rita R.");
+
+      function learnMore() {
+        let name = prompt("What is your name?");
+
+        alert(
+          `Thank you ${name}, for your time and interest in this nail art page💅🏼`
+        );
+      }
+
+      let learnButton = document.querySelector(".learn-button");
+      learnButton.addEventListener("click", learnMore);
+    </script>
+  </body>
+</html>
